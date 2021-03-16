@@ -1,0 +1,48 @@
+.navegation {
+    border: #008CBA 4px solid;
+    height: 10%;
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.navegation p{
+    font-size: 15px;
+}
+
+.navegation ul{
+    display: flex;
+    position: relative;
+    width: auto;
+    left: 33%;
+}
+.navegation li{
+    text-transform: uppercase;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: white;
+}
+.navegation li:hover{
+    background-color: #008CBA;
+
+}
+
+.navegation a{
+    color: black;
+    font-weight: 300;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+.navegation a:hover{
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+
+}
+

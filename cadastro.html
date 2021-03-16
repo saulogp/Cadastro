@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <script src="cep.js"></script>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+<body>
+    <div class="navegation" id="nav">
+        <h1 class="logo">Pirâmide</h1>
+        <p>Venha empreender com a gente!</p>
+        <ul>
+            <li><a href="principal.html">Home</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </div>
+    <div class="div-form">
+        <form action="">
+            <h1>Novo Cadastro</h1>
+            <label for="id">Id</label><br>
+            <input type="number" id="id" placeholder="1"><br>
+            <label for="nome">Nome</label><br>
+            <input type="text" id="nome" placeholder="Nicolas Cage"><br>
+            <label for="telefone">Telefone</label><br>
+            <input type="text" id="telefone" placeholder="4002-8922"><br>
+            
+            <label for="cep">CEP</label><br>
+            <input type="text" id="cep" placeholder="15920000">
+            <button type="button" id="btns" onclick="findCEP()">Buscar</button><br>
+
+            <label for="logradouro">Logradouro</label><br>
+            <input type="text" id="logradouro" placeholder="Av. Brasil"><br>
+            <label for="numero">Numero</label><br>
+            <input type="number" id="numero" placeholder="75"><br>
+            <label for="bairro">Bairro</label><br>
+            <input type="text" id="bairro" placeholder="Jardim"><br>
+            <label for="localidade">Localidade</label><br>
+            <input type="text" id="localidade" placeholder="Vista Alegre do Alto"><br>
+            <label for="uf">UF</label><br>
+            <input type="text" id="uf" placeholder="SP"><br>
+            <label for="salario">Salário</label><br>
+            <input type="number" id="salario" placeholder="1300,00"><br>
+            <label for="estadoCivil">Estado Cívil</label><br>
+            <input type="text" id="estadoCivil" placeholder="Casado, solteiro..."><br>
+            <label for="idade">Idade</label><br>
+            <input type="number" id="idade" placeholder="50"><br>
+            <br> 
+            <button type="button" id="btns" onclick="getValuesFromForm()">Cadastrar</button>
+
+        </form>
+
+        <p id="statusCadastro"></p>
+        <p id="imposto"></p>
+        <!--style="display: none;"-->
+        <div id="imprime" style="display: none;">
+            <br>
+            <p>Imprimir dados do cadastro</p>
+            <button onclick="imprimir()">Imprimir</button>
+        </div>
+
+    </div>
+</body>
+</html>

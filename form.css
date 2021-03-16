@@ -1,0 +1,64 @@
+.div-form{
+    border: #008CBA 4px solid;
+    width: 33%;
+    padding: 15px;
+    position: absolute;
+    left: 33%;
+    text-align: left;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.div-form h1{
+    text-align: center;
+    color: #008CBA;
+}
+.div-form label{
+    font-size: 16px;
+}
+.div-form input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.div-form button{
+    background-color: #008CBA; /* Green */
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    margin-left: 0px;
+}
+.div-form button:hover{
+    background-color: #017399;
+}
+.div-form p{
+    text-align: center;
+    font-weight: 200;
+}
+.div-form p:hover{
+    color: #008CBA;
+    font-weight: 300;
+}
+/* .div-form a:link{
+    color: black;    
+}
+.div-form a:visited{
+    color: #008CBA;    
+}
+.div-form a:hover{
+    color: #008CBA;    
+}
+.div-form a:active{
+    color: #017399;  
+    font-weight: 300;  
+} */
