@@ -1,12 +1,14 @@
 .navegation {
     border: #008CBA 4px solid;
     height: 10%;
-    width: 100%;
     margin: 0px;
     margin-bottom: 20px;
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .navegation p{
@@ -14,10 +16,11 @@
 }
 
 .navegation ul{
+    padding-left: 0%;
     display: flex;
     position: relative;
-    width: auto;
-    left: 33%;
+    width: 100%;
+    justify-content: center;
 }
 .navegation li{
     text-transform: uppercase;
