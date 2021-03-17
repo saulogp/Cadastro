@@ -1,0 +1,56 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+}
+
+.email label{
+    text-align: left;
+}
+
+.email{
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 25%;
+    border: #008CBA 4px solid;
+}
+
+.email input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.email button{
+    background-color: #008CBA; /* Green */
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    margin-left: 0px;
+}
+.email button:hover{
+    background-color: #017399;
+}
+
+.telefone{
+    width: 25%;
+    border: #008CBA 4px solid;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contato{
+    display: flex;
+    margin-left: 25%;
+}
